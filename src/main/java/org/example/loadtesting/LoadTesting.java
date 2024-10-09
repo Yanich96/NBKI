@@ -7,8 +7,8 @@ import org.example.loadtesting.requests.RequestFactory;
 import java.util.ArrayList;
 
 public class LoadTesting {
-    public static void main(String[] args) {
-        int requestsCount = 1000000;
+    public static void testing() {
+        int requestsCount = 100000;
         ArrayList<String> data = new ArrayList<>();
         for (int i = 0; i < requestsCount; i++) {
             data.add(String.valueOf(i));
